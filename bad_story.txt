@@ -1,0 +1,6 @@
+START_HP 50
+SCENE You hear a knock on the door and discover a shadow of an armed man
+HP 0
+LOOT 0
+ITEM none
+CHOICES 4

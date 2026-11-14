@@ -1,0 +1,138 @@
+START_HP 50
+SCENE You hear a knock on the door and discover a shadow of an armed man
+HP 0
+LOOT 0
+ITEM none
+CHOICES 2
+LABEL Grab your rifle
+  SCENE After you quickly grab your rifle, the man breaches the door
+  HP 0
+  LOOT 10
+  ITEM Rifle
+  CHOICES 2
+  LABEL Grab your cell phone
+    SCENE Uh-oh! Once you tried to dial 9-1-1, you realized that your phone ran out of cellular data!
+    HP 0
+    LOOT 1
+    ITEM Cell phone
+    CHOICES 3
+    LABEL Hold onto your rifle
+      SCENE You also find out that your rifle ran out of bullets. After the man heads upstairs, he shoots you.
+      HP -50
+      LOOT 0
+      ITEM none
+      CHOICES 0
+    LABEL Quickly grab your laptop and search for ways to contact emergency services
+      SCENE You hear the man breaking into your house and searching for you
+      HP 0
+      LOOT 4
+      ITEM Laptop
+      CHOICES 1
+      LABEL Hold onto your rifle
+        SCENE You also find out that your rifle ran out of bullets. After the man heads upstairs, he shoots you.
+        HP -50
+        LOOT 0
+        ITEM none
+        CHOICES 0
+    LABEL Lock yourself in the closet
+      SCENE The man heads upstairs, breaks into your bedroom, and searches for you. You feel the urge to sneeze.
+      HP 0
+      LOOT 3
+      ITEM none
+      CHOICES 1
+      LABEL Sneeze
+        SCENE The man aggressively rolls up the closet door and shoots you
+        HP -50
+        LOOT 0
+        ITEM none
+        CHOICES 0
+  LABEL Barricade your bedroom door with a heavy object and then grab your cell phone
+    SCENE Uh-oh! Once you tried to dial 9-1-1, you realized that your phone ran out of cellular data!
+    HP 0
+    LOOT 1
+    ITEM Table
+    CHOICES 2
+    LABEL Hold onto your rifle
+      SCENE You also find out that your rifle ran out of bullets. After the man heads upstairs, he struggles to break into your room.
+      HP 0
+      LOOT 4
+      ITEM none
+      CHOICES 2
+      LABEL Quickly place a bear trap above your door
+        SCENE Once the man tries opening your bedroom door, the trap falls on him and shatters his face.
+        HP 50
+        LOOT 20
+        ITEM His rifle
+        CHOICES 0
+      LABEL Hold onto your rifle
+        SCENE The man ultimately breaks the bedroom door wide open and shoots you.
+        HP -50
+        LOOT 0
+        ITEM none
+        CHOICES 0
+    LABEL Quickly grab your laptop and search for ways to contact emergency services
+        SCENE You hear the man breaking into your house and searching for you
+        HP 0
+        LOOT 5
+        ITEM Laptop
+        CHOICES 1
+        LABEL Hold onto your rifle
+          SCENE You also find out that your rifle ran out of bullets. After the man heads upstairs, he struggles to break into your room.
+          HP 0
+          LOOT 2
+          ITEM none
+          CHOICES 2
+          LABEL Quickly place a bear trap above the door
+            SCENE Once the man tries opening your bedroom door, the trap falls on him and shatters his face.
+            HP 50
+            LOOT 20
+            ITEM His rifle
+            CHOICES 0
+          LABEL Hold onto your rifle
+            SCENE The man ultimately breaks the bedroom door wide open and then shoots you
+            HP -50
+            LOOT 0
+            ITEM none
+            CHOICES 0
+LABEL Head to your bedroom
+  SCENE You quickly escape upstairs to your bedroom. After you lock the door, the man breaks into your house and searches for you.
+  HP 0
+  LOOT 1
+  ITEM none
+  CHOICES 1
+  LABEL Barricade with a table and then grab your cell phone
+    SCENE Uh-oh! Once you tried to dial 9-1-1, you realized that your phone ran out of cellular data!
+    HP 0
+    LOOT 3
+    ITEM Table
+    CHOICES 2
+    LABEL Lock yourself in the closet
+      SCENE The man heads upstairs, breaks into your bedroom, and searches for you. You feel the urge to sneeze.
+      HP 0
+      LOOT 2
+      ITEM none
+      CHOICES 1
+      LABEL Sneeze
+        SCENE The man aggressively rolls up the closet door and shoots you.
+        HP -50
+        LOOT 0
+        ITEM none
+        CHOICES 0
+    LABEL Quickly grab your laptop and search for ways to contact emergency services
+      SCENE You hear the man breaking into your house and searching for you. You then realized you forgot to bring your rifle!
+      HP 0
+      LOOT 1
+      ITEM Laptop
+      CHOICES 2
+      LABEL Safely exit your bedroom
+        SCENE The man instantly shoots you
+        HP -50
+        LOOT 0
+        ITEM none
+        CHOICES 0
+      LABEL Remain inside your bedroom and keep searching
+        SCENE The man heads upstairs and shoots you
+        HP -50
+        LOOT 0
+        ITEM none
+        CHOICES 0
